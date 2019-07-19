@@ -198,7 +198,7 @@ border-bottom: 2px solid white;
  <p><strong>Ustka</strong> to miasto w północnej Polsce, w województwie pomorskim,<br>
  w powiecie słupskim, siedziba gminy wiejskiej Ustka,<br> na historycznym Pomorzu Zachodnim. Ustka jest położona na Wybrzeżu Słowińskim,<br> u ujścia rzeki Słupi do Morza Bałtyckiego. Jest miastem portowym, uzdrowiskiem<br> z dwoma letnimi kąpieliskami morskimi.</p>
  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Collage_of_views_of_Ustka.jpg/640px-Collage_of_views_of_Ustka.jpg" alt="A happy Beaver" width="83%">
+  <img src="https://camo.githubusercontent.com/ec02c045e3f4c37f2255f32783469244a9ea17d8/68747470733a2f2f692e6962622e636f2f534a59395947582f44382d42392d41372d45342d443736392d343732372d382d4144312d353733303430392d4231352d42452e706e67" alt="A happy Beaver" width="83%">
   
   <h2 id="blog">Blog</h2>
   <a href="#DD"><button class="styled"
