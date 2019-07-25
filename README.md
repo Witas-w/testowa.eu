@@ -1,72 +1,103 @@
+#testowa.pl
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>glowna</title>
+        <title>test</title>
         <style>
-            body {
-            background-color: grey;
-            Color: white;
-             margin: none;
-             text-align: center;
-             font-family: cursive;
-              border: 1px solid rgb(230, 25, 25);
+      
+        body{
+            background-color: rgb(26, 140, 66);
+            color: white;
         }
-              nav{
+        .a {
+           color: green; 
+        }   
+        h4 {
+            
+            font-size: 19px;
+            float: left;
+            margin-top: -1px;
+            color: white;
+        }
+        nav {
+            font-size: 19px;
             text-align: center;
-            font-size:20px;
-          background: rgb(175, 209, 209);
-          line-height: 2.3em;
-          border-bottom:2px solid rgb(0, 0, 0);
-        
-        }
-            .v{
-                color:rgb(255, 255, 255);
-          font-style: serif;
-          text-decoration: none;
-            }
-           a:hover { 
-                background-color: rgb(177, 186, 224);
-         
-            }  
-            a:active{
-                background:rgb(115, 140, 105);
-            }
-            
-            
-
-            #t{
-            border-top:2px solid red;
-            }
-            #od{
-            border-top:2px solid red;
-            } 
-           table {
+            margin-top: 31px;
            color: black;
-          } 
-          #wmm{
-          border-bottom: 3px solid red;
-          font-family: sans-serif;
-         } 
-         #atr{
-         border-top: 2px solid red;
-        } 
-        #st{
-        border-top: 2px solid red;
-       } 
+           text-decoration: none;
+           background-color: rgb(23, 75, 110);
+           line-height: 3;
+           margin: 0;
+        }
+        a:hover{
+            background-color: rgb(245, 117, 32);
+        }
+        a:active{
+            background-color: orange;
+        }
+        a{
+            color: white;
+              text-decoration: none;
+        }
+        #i{
+          float: left;
+          margin-left: -100px;
+          margin-top: 43px;
+          z-index: 1;
+          position: fixed;
+        right: 295px;
+        }
+        #o{
+            margin-left: 320px;
+            margin-top: 39px;
+            z-index: 2;
+            position: absolute;
+        }
+        p{
+            position: relativ;
+            margin-top: 95px;
+            margin-left: 287PX;
+            margin-bottom: 25px;
+            z-index: 2;
+             width: 279px;
+        }
+        #pading{
+            left: -92px;
+            color: black;
+            background-color: white;
+            text-align: center;
+            position: relative;
+            z-index: 3;
+        }
         </style>
     </head>
     <body>
-    <nav>
-        <a href="https://witas-w.github.io/strona-g-wna/" class="v">główna</a>
-        <a href=" https://witas-w.github.io/blog/." class="v">blog</a>
-        <a href="https://witas-w.github.io/witas/
-" class="v">Wakacje 2019</a>
-<a href="" class="v">Galeria obrazów</a>
-    </nav>
-    <img src="https://camo.githubusercontent.com/ec02c045e3f4c37f2255f32783469244a9ea17d8/68747470733a2f2f692e6962622e636f2f534a59395947582f44382d42392d41372d45342d443736392d343732372d382d4144312d353733303430392d4231352d42452e706e67">
-   <img src="https://i.ibb.co/HF6M6bV/81-A58662-34-C0-493-B-B211-A59-C36416-B70.jpg">
-    <img src="https://i.ibb.co/nj074kK/074-B68-BA-5-C32-4-A10-8-A89-7-D69-F6-C318-A4.png">
-    
- </body>
+    <h4><span class="a">Autor:</span> Jakub <br>
+        Witkowski
+    </h4>
+ <nav>
+     <a href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna">Główna</a>
+     <a href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna">O mnie</a>
+     <a href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna">Blog</a>
+ </nav>
+ 
+ <img id="i"src="https://www.kasandbox.org/programming-images/seasonal/xmas-scene-holly-border.png" width="286px">
+ 
+ <h2 id="o">O Wrocławiu</h2>
+ <p>Wrocławskie krasnale zjawisko społeczne obejmujące swoim zasięgiem Wrocław i okoliczne gminy, a wywierające wpływ na działania artystyczne realizowane w całej Polsce.
+
+Niewielkie rzeźby krasnali, w liczbie stale rosnącej, są umieszczane we Wrocławiu sukcesywnie od 2005. Wywodzą się od malowanych w latach 80. XX wieku graffiti, a następnie happeningów organizowanych przez ruch „Pomarańczowej Alternatywy” ośmieszających w sposób pokojowy system komunistyczny. Po upadku PRL-u krasnale
+uległy zapomnieniu aż do sierpnia 2005, kiedy to wrocławski rzeźbiarz Tomasz Moczek ustawił pięć pierwszych krasnali.
+
+Figurki krasnali stały się integralną częścią przestrzeni miejskiej oraz zjawiskiem społecznym. Nowe postacie tworzone są przez artystów z całej Polski, a ich opiekunami są instytucje publiczne, firmy oraz osoby prywatne. Organizowane są specjalne wycieczki szlakiem krasnali, gry plenerowe, spektakle teatralne oraz wydawane mapy dla turystów chcących połączyć odnajdywanie kolejnych figurek ze zwiedzaniem Wrocławia.
+
+Ponadto kopie krasnala Życzliwka stoją w Dreźnie, Reykjaviku, Wilnie, Guadadalajarze, Hradec Kralove i Lwowie, a w Waszyngtonie stoi krasnal Kościuszko.<br>
+Źródło:<a href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna">wikipedia</a>
+</p>
+ <p id="pading">Copyright by Jakub W</p>
+ 
+    </body>
 </html>
+
+          
