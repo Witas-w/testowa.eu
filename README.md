@@ -1,5 +1,4 @@
-#testowa.pl
-
+<!DOCTYPE html>
         
 <html>
     <head>
